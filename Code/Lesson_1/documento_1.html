@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <title>Documento 1</title>
+        <!--chiamata del CSS RETRO -->
+        <link rel="stylesheet" href="CSS/retro.css">
+        <!--chiamata del mio CSS-->
+        <link rel="stylesheet" href="CSS/mycss.css">
+    
+
+    </head>
+    <body>
+        <h1>Ciao</h1>
+        <h2>Basi di dati</h2>
+        <p>
+            Una base di dati può essere definita come una collezione di dati strutturati, progettati per essere usati in applicazioni differenti e da differenti utenti.
+        </p>
+        <table>
+            <tr>
+                <th>
+                    <img src="images/duplicazione-archivio-basedati-2.gif">
+                </th>
+                <th></br></th>
+                <th>
+                    <img src="images/2Sb2P.png">
+                </th>
+            </tr>
+        </table>
+        <p>
+            Esistono diversi linguaggi di programmazione per i database. Solitamente si usano contemporaneamente Mysql e PHP
+        </p>
+        <h2>Mysql</h2>
+        <p>
+            MySQL è un sistema di gestione di database relazionali (RDBMS) gratuito e open source che utilizza SQL (Structured Query Language)
+        </p>
+        <br>
+        <hr>
+        <br>
+        <h3>Example:</h3>
+        <br>
+        Create a database
+        <blockquote>
+             CREATE DATABASE db_name;
+        </blockquote>
+        Create a table
+        <blockquote>
+            CREATE TABLE shop (<br>
+            &nbsp &nbsp article INT UNSIGNED  DEFAULT '0000' NOT NULL,<br>
+            &nbsp &nbsp dealer  CHAR(20)      DEFAULT ''     NOT NULL,<br>
+            &nbsp &nbsp price   DECIMAL(16,2) DEFAULT '0.00' NOT NULL,<br>
+            &nbsp &nbsp PRIMARY KEY(article, dealer));<br>
+        </blockquote>
+        Insert values inside the table
+        <blockquote>
+            INSERT INTO shop VALUES<br>
+            &nbsp &nbsp (1,'A',3.45),(1,'B',3.99),(2,'A',10.99),(3,'B',1.45),<br>
+            &nbsp &nbsp (3,'C',1.69),(3,'D',1.25),(4,'D',19.95);<br>
+        </blockquote>
+        <br>
+        <hr>
+        <br>
+        <h3>Try:</h3>
+        <br>
+        <form action="" method="post">
+            <input type="text" name="Input">
+            <br>
+            <input type="submit" value="Invia"/>
+        </form>
+        <br>
+        <br>
+        <br>
+        <a href="documento_2.html">Documento 2</a>
+
+    </body>
+</html>

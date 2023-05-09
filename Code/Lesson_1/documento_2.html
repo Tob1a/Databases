@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Documento 2</title>
+        <!--Chimata dei css-->
+        <link rel="stylesheet" href="CSS/retro.css">
+        <link rel="stylesheet" href="CSS/mycss.css">
+
+    </head>
+    <body>
+        <h1>Ciao Basi di Dati</h1>
+        <h2>Php</h2>
+        <p>
+            PHP is a general-purpose scripting language geared toward web development. <br> It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference implementation is now produced by The PHP Group.PHP was originally an abbreviation of Personal Home Page, but it now stands for the recursive initialism PHP: Hypertext Preprocessor.
+        </p>
+        <br>
+        <table>
+            <th>
+                <td>
+                    ciao
+                </td>
+                <td>
+                    ciaoe
+                </td>
+            </th>
+        </table>
+        <br>
+        <h3>Example:</h3>
+        <br>
+        Print Hi my name is (Name of the variable)
+        <pre>
+            <code class="php">
+        &lt?php&gt
+            $name = "Quincy";
+            echo "Hi! My name is " . $name . "&ltbr>";
+            echo "Hi! My name is " . $NAME . "&ltbr>";
+            echo "Hi! My name is " . $NaMe . "&ltbr>";
+        ?>
+            </code>
+        </pre>
+        Php resorce<br>
+        <pre>
+            <code>
+        &lt?php
+            // prints: mysql link
+            $c = mysql_connect();
+            echo get_resource_type($c) . "\n";
+
+            // prints: stream
+            $fp = fopen("foo", "w");
+            echo get_resource_type($fp) . "\n";
+
+            // prints: domxml document
+            $doc = new_xmldoc("1.0");
+            echo get_resource_type($doc->doc) . "\n";
+        ?>
+            </code>
+        </pre>
+        <br>
+        mysql_connect(nameofthedatabase) make a connesion to the nameofthedatabase<br>
+        fopen("foo", "w") open the file foo and w to write not to read<br>
+        new_xmldoc("1.0") make a new xml file named 1.0<br>
+        echo get_resource_type(variable) return the resource from the variable and print them<br>
+        <br>
+        <hr>
+        <br>
+        <a href="documento_1.html">Documento 1</a>
+    </body>
+</html>
