@@ -6,6 +6,7 @@ h2 {
 input[type=submit]:hover {
     background: #9b9b9b;
 }
+
 input[type=submit]{
     margin-right: 6px;
     margin-bottom: 6px;
@@ -24,4 +25,8 @@ input[type=text] {
     border: none;
     border-radius: 6px;
     outline-color: #01ff70;
+}
+
+h1{
+    text-align: center;
 }
