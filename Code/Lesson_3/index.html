@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Anagrafe</title>
+    <link rel="stylesheet" href="css/retro.css">
+    <link rel="stylesheet" href="css/mycss.css">
+</head>
+
+<body>
+    <h1>Ciaone</h1>
+    <p>Questo è un modulo per quanto riguarda una richiesta form di prova.</p><br>
+    <p>Inserire i dati per l'anagrafe:</p><br>
+    <form method="POST" action="script.php">
+        <fieldset>
+            Nome:<br>
+            <input type="text" name="name" placeholder="es. Mario">
+        </fieldset>
+        <fieldset>
+            Cognome:<br>
+            <input type="text" name="cognome" placeholder="es. Rossi">
+        </fieldset>
+        <fieldset>
+            Data di nascita:<br>
+            <input type="date" name="datanascita">
+        </fieldset>
+        <table>
+            <th>
+                <fieldset>
+                    Citta:<br>
+                    <input type="text" name="citta" placeholder="es. Vigonza">
+                </fieldset>
+            </th>
+            <th>
+                <fieldset>
+                    Indirizzo di casa:<br>
+                    <input type="text" name="indirizzo" placeholder="es. Via G. Mazzini">
+                </fieldset>
+            </th>
+            <th>
+                <fieldset>
+                    Numero:<br>
+                    <input type="number" name="numero" placeholder="es. 55">
+                </fieldset>
+            </th>
+            <th>
+                <fieldset>
+                    Cap:<br>
+                    <input type="number" name="cap" placeholder="es. 65762">
+                </fieldset>
+            </th>
+           
+        </table>
+        
+        <br>
+        &nbsp;<input type="submit" value="invia">
+    </form>
+</body>
+
+</html>
