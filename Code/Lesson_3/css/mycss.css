@@ -53,4 +53,5 @@ input[type=number] {
     padding: 10px;
     outline-color: #01ff70;
     border-radius: 6px;
+    border: none;
 }

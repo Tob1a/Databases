@@ -1,0 +1,3 @@
+Come primo esempio andremo ad eseguire un inserimento nel database.
+
+Prima però vediamo come effettuare la connessione al database con il test.php
